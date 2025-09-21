@@ -1,4 +1,4 @@
-# Shadowsocks Global Proxy Setup
+# shadowsocks-vps-proxy
 
 This repository demonstrates a **Shadowsocks global proxy setup** for bypassing network restrictions on PC and Android devices. It includes a dummy configuration file and a clear architecture overview.
 
