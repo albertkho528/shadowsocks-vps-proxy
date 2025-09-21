@@ -49,9 +49,10 @@ This project demonstrates the setup of a **personal proxy system** using a VPS r
 
 ## Architecture Diagram
 
-[PC / Android] --(PAC routing)--> [Clash / Shadowsocks Client]
-      |                                           |
-    Direct                       Proxy [VPS: Shadowsocks/Clash]
+flowchart LR
+    A[PC / Android] --> B[PAC Rules (Clash)]
+    B --> C[VPS: Shadowsocks/Clash]
+    C --> D[Internet]
 
 
 - **PC / Android**: Devices sending requests  
